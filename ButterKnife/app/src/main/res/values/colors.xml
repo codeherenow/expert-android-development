@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Blue Theme -->
     <color name="primary_blue">#4285f4</color>
     <color name="primary_blue_dark">#3367d6</color>
+
+    <!-- Red Theme -->
     <color name="primary_red">#f44336</color>
     <color name="primary_red_dark">#b71c1c</color>
+
+    <!-- Purple Theme -->
+    <color name="primary_purple">#9c27b0</color>
+    <color name="primary_purple_dark">#4a148c</color>
+
+    <!-- NewsActivity -->
+    <color name="author">#808080</color>
+    <color name="category">#264d73</color>
 </resources>

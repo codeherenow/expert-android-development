@@ -26,6 +26,11 @@
             android:label="@string/title_activity_register"
             android:theme="@style/RedAppTheme" >
         </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news"
+            android:theme="@style/PurpleThemeLight" >
+        </activity>
     </application>
 
 </manifest>

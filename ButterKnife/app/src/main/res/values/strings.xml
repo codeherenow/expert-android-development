@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name">Hello ButterKnife</string>
-    <string name="action_settings">Settings</string>
 
+    <!-- RegisterActivity -->
     <string name="title_activity_register">Register</string>
     <string name="name">Name</string>
     <string name="email">Email</string>
@@ -24,6 +24,7 @@
         <item>South America</item>
     </string-array>
 
+    <!-- BillingShippingActivity -->
     <string name="title_activity_billing_shipping">Billing &amp; Shipping</string>
     <string name="billing_address">Billing Address</string>
     <string name="full_name">Full Name</string>
@@ -33,5 +34,16 @@
     <string name="same_as_billing">Same as billing address</string>
     <string name="typeface_alex_brush">typefaces/AlexBrush-Regular.ttf</string>
     <string name="typeface_quicksand">typefaces/Quicksand-Regular.otf</string>
+
+    <!-- NewsActivity -->
+    <string name="title_activity_news">News</string>
+    <string name="author">Author</string>
+    <string name="in"> in </string>
+    <string name="category">Category</string>
+    <string name="news_title">News Title</string>
+    <string name="comments">Comments</string>
+    <string name="dot">•</string>
+    <string name="website">Website</string>
+    <string name="display_time">Display Time</string>
 
 </resources>
