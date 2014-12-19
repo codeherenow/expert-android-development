@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello ButterKnife</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="city">City</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="message" formatted="false">%s is a %s who lives at %s, %s. You can contact %s via %s</string>
+    <string name="him">him</string>
+    <string name="her">her</string>
+    <string name="submit">Submit</string>
+    <string-array name="continents">
+        <item>Africa</item>
+        <item>Antarctica</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Europe</item>
+        <item>North America</item>
+        <item>South America</item>
+    </string-array>
+
+    <string name="title_activity_billing_shipping">Billing &amp; Shipping</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="same_as_billing">Same as billing address</string>
+    <string name="typeface_alex_brush">typefaces/AlexBrush-Regular.ttf</string>
+    <string name="typeface_quicksand">typefaces/Quicksand-Regular.otf</string>
+
+</resources>
