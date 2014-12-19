@@ -21,6 +21,11 @@
             android:label="@string/title_activity_register"
             android:theme="@style/RedAppTheme" >
         </activity>
+        <activity
+            android:name=".RegisterFragmentActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/RedAppTheme" >
+        </activity>
     </application>
 
 </manifest>
