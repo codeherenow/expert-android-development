@@ -7,7 +7,7 @@
     android:padding="10dp" >
 
     <TextView
-        android:id="@+id/author"
+        android:id="@+id/authorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/author"
@@ -19,18 +19,18 @@
         android:id="@+id/in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@id/author"
-        android:layout_toEndOf="@id/author"
+        android:layout_alignBaseline="@id/authorTextView"
+        android:layout_toEndOf="@id/authorTextView"
         android:text="@string/in"
         android:layout_marginRight="5dp"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/category"
+        android:id="@+id/categoryTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@id/author"
+        android:layout_alignBaseline="@id/authorTextView"
         android:layout_toEndOf="@id/in"
         android:text="@string/category"
         android:textColor="@color/category"
@@ -38,10 +38,10 @@
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/author"
+        android:layout_below="@id/authorTextView"
         android:paddingTop="5dp"
         android:text="@string/news_title"
         android:textColor="@android:color/black"
@@ -50,19 +50,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/title"
+        android:layout_below="@id/titleTextView"
         android:layout_marginTop="20dp"
         android:orientation="horizontal" >
 
         <TextView
-            android:id="@+id/commentsCount"
+            android:id="@+id/commentsCountTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/author"
             android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/comments"
+            android:id="@+id/commentsTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="2dp"
@@ -82,7 +82,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/website"
+            android:id="@+id/websiteTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/website"
@@ -100,7 +100,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/displayTime"
+            android:id="@+id/displayTimeTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/display_time"

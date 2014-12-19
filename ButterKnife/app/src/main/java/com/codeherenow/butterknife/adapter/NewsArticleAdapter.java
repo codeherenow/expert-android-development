@@ -12,6 +12,9 @@ import com.codeherenow.butterknife.model.NewsArticle;
 
 import java.util.List;
 
+import butterknife.ButterKnife;
+import butterknife.InjectView;
+
 /**
  * This example illustrates the usage of {@link butterknife.InjectView}
  * annotation in {@link android.widget.ListAdapter}s.
@@ -54,20 +57,26 @@ public class NewsArticleAdapter extends ArrayAdapter<NewsArticle> {
     }
 
     public class ViewHolder {
+        @InjectView(R.id.authorTextView)
         TextView mAuthorTextView;
+
+        @InjectView(R.id.categoryTextView)
         TextView mCategoryTextView;
+
+        @InjectView(R.id.titleTextView)
         TextView mTitleTextView;
+
+        @InjectView(R.id.commentsCountTextView)
         TextView mCommentsCountTextView;
+
+        @InjectView(R.id.websiteTextView)
         TextView mWebsiteTextView;
+
+        @InjectView(R.id.displayTimeTextView)
         TextView mDisplayTimeTextView;
 
         public ViewHolder(View view) {
-            mAuthorTextView = (TextView) view.findViewById(R.id.author);
-            mCategoryTextView = (TextView) view.findViewById(R.id.category);
-            mTitleTextView = (TextView) view.findViewById(R.id.title);
-            mCommentsCountTextView = (TextView) view.findViewById(R.id.commentsCount);
-            mWebsiteTextView = (TextView) view.findViewById(R.id.website);
-            mDisplayTimeTextView = (TextView) view.findViewById(R.id.displayTime);
+            ButterKnife.inject(this, view);
         }
     }
 }
