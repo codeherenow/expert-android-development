@@ -15,6 +15,9 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+# Following are 3 rules that should be placed if you are enabling
+# minification for your project that uses ButterKnife.
 -dontwarn butterknife.internal.**
 -keep class **$$ViewInjector { *; }
 -keepnames class * { @butterknife.InjectView *;}

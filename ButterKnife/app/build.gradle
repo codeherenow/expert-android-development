@@ -11,15 +11,26 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
     buildTypes {
+        /*
+         * If you enable minification (i.e.) Setting `minifyEnabled` to `true`,
+         * you have to include `lintOptions`, `packagingOptions` and a few
+         * ProGuard rules. Check the `proguard.pro` file to find out the
+         * rules.
+         */
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    // Add `lintOptions` if you have enabled minification
     lintOptions {
         disable 'InvalidPackage'
     }
+
+    // Add `packagingOptions` if you have enabled minification
     packagingOptions {
         exclude 'META-INF/services/javax.annotation.processing.Processor'
     }
@@ -27,5 +38,13 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    /*
+     * Use the latest version of ButterKnife, you can find the project's
+     * source code from Github. And for instructions, see the website.
+     *
+     * Github: https://github.com/JakeWharton/butterknife
+     * Website: http://jakewharton.github.io/butterknife/
+     */
     compile 'com.jakewharton:butterknife:6.0.0'
 }
