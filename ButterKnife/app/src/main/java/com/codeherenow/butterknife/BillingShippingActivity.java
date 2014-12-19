@@ -27,6 +27,11 @@ public class BillingShippingActivity extends Activity {
     private Typeface mAlexBrushTypeface;
     private Typeface mQuicksandTypeface;
 
+    /*
+     * {@link butterknife.InjectViews} annotation accepts an array of view IDs.
+     * @InjectViews should be used only on {@link java.util.List} type or on
+     * an array of view objects. Other implementations are restricted.
+     */
     @InjectViews({
         R.id.billingAddressTextView,
         R.id.shippingAddressTextView
@@ -61,6 +66,11 @@ public class BillingShippingActivity extends Activity {
         // View injection
         ButterKnife.inject(this);
 
+        /*
+         * {@link butterknife.ButterKnife.Setter}s allow you to pass values. Following
+         * method calls illustrate the usage of {@link butterknife.ButterKnife.Setter}s
+         * using the `ButterKnife.apply(List, Setter, Object)` method.
+         */
         ButterKnife.apply(mHeaderTextViews, TYPEFACE, mAlexBrushTypeface);
         ButterKnife.apply(mBillingEditTexts, TYPEFACE, mQuicksandTypeface);
         ButterKnife.apply(mShippingEditTexts, TYPEFACE, mQuicksandTypeface);
@@ -70,7 +80,12 @@ public class BillingShippingActivity extends Activity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 ButterKnife.apply(mShippingEditTexts, ENABLED, !isChecked);
+
                 if (isChecked) {
+                    /*
+                     * {@link android.app.Notification.Action}s does not allow you
+                     * to pass values to your views.
+                     */
                     ButterKnife.apply(mShippingEditTexts, CLEAR);
                 }
             }
@@ -87,6 +102,10 @@ public class BillingShippingActivity extends Activity {
             getString(R.string.typeface_quicksand));
     }
 
+    /*
+     * {@link butterknife.ButterKnife.Setter}s allow you to set a value
+     * for multiple {@link android.view.View} instances.
+     */
     static final ButterKnife.Setter<TextView, Typeface> TYPEFACE =
             new ButterKnife.Setter<TextView, Typeface>() {
                 @Override
@@ -95,6 +114,14 @@ public class BillingShippingActivity extends Activity {
                 }
             };
 
+    /*
+     * {@link butterknife.ButterKnife.Action}s allow you to perform a set of
+     * actions on multiple {@link android.view.View} instances. The difference
+     * between a {@link butterknife.ButterKnife.Setter} and an
+     * {@link butterknife.ButterKnife.Action} is that, the
+     * {@link butterknife.ButterKnife.Setter} allows values to be passed, however
+     * an {@link butterknife.ButterKnife.Action} cannot allow values.
+     */
     static final ButterKnife.Setter<EditText, Boolean> ENABLED =
             new ButterKnife.Setter<EditText, Boolean>() {
                 @Override
