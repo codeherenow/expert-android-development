@@ -5,6 +5,6 @@ Source Code for [Expert Android Development](https://www.udemy.com/draft/76758/)
 
 Here are some awesome screenshots from the course.
 
-<img src="https://github.com/codeherenow/expert-android-development/blob/master/Screenshots/register.png" width="256">
-<img src="https://github.com/codeherenow/expert-android-development/blob/master/Screenshots/news.png" width="256">
-<img src="https://github.com/codeherenow/expert-android-development/blob/master/Screenshots/billing-and-shipping.png" width="256">
+<img src="https://github.com/codeherenow/expert-android-development/blob/master/Screenshots/register.png" width="215">
+<img src="https://github.com/codeherenow/expert-android-development/blob/master/Screenshots/news.png" width="215">
+<img src="https://github.com/codeherenow/expert-android-development/blob/master/Screenshots/billing-and-shipping.png" width="215">
