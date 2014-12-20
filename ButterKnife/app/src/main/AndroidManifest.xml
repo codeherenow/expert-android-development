@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".BillingShippingActivity"
-            android:label="@string/title_activity_billing_shipping">
+            android:label="@string/title_activity_billing_shipping" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,6 +30,11 @@
             android:name=".NewsActivity"
             android:label="@string/title_activity_news"
             android:theme="@style/PurpleThemeLight" >
+        </activity>
+        <activity
+            android:name=".TrafficLightsActivity"
+            android:label="@string/title_activity_traffic_lights"
+            android:theme="@style/AmberTheme" >
         </activity>
     </application>
 

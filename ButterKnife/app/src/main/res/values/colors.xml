@@ -12,7 +12,17 @@
     <color name="primary_purple">#9c27b0</color>
     <color name="primary_purple_dark">#4a148c</color>
 
+    <!-- Amber Theme -->
+    <color name="primary_amber">#ffc107</color>
+    <color name="primary_amber_dark">#ff6f00</color>
+
     <!-- NewsActivity -->
     <color name="author">#808080</color>
     <color name="category">#264d73</color>
+
+    <!-- TrafficLightsActivity -->
+    <color name="red_on">#d50000</color>
+    <color name="amber_on">#ffa000</color>
+    <color name="green_on">#64dd17</color>
+    <color name="light_off">#bdbdbd</color>
 </resources>

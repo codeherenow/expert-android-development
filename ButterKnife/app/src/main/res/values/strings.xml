@@ -14,6 +14,7 @@
     <string name="him">him</string>
     <string name="her">her</string>
     <string name="submit">Submit</string>
+
     <string-array name="continents">
         <item>Africa</item>
         <item>Antarctica</item>
@@ -45,5 +46,8 @@
     <string name="dot">•</string>
     <string name="website">Website</string>
     <string name="display_time">Display Time</string>
+
+    <!-- TrafficLightsActivity -->
+    <string name="title_activity_traffic_lights">Traffic Lights</string>
 
 </resources>

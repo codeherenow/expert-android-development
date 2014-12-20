@@ -13,4 +13,9 @@
         <item name="android:colorPrimaryDark">@color/primary_purple_dark</item>
         <item name="android:textColorPrimary">@android:color/white</item>
     </style>
+    <style name="AmberTheme" parent="android:Theme.Material">
+        <item name="android:colorPrimary">@color/primary_amber</item>
+        <item name="android:colorPrimaryDark">@color/primary_amber_dark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
 </resources>
