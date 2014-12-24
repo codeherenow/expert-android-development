@@ -49,5 +49,6 @@
 
     <!-- TrafficLightsActivity -->
     <string name="title_activity_traffic_lights">Traffic Lights</string>
+    <string name="title_activity_guest_list">Guest List</string>
 
 </resources>

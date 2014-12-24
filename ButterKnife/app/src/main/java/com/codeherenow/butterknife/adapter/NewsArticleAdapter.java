@@ -56,7 +56,7 @@ public class NewsArticleAdapter extends ArrayAdapter<NewsArticle> {
         return view;
     }
 
-    public class ViewHolder {
+    static class ViewHolder {
         @InjectView(R.id.authorTextView)
         TextView mAuthorTextView;
 

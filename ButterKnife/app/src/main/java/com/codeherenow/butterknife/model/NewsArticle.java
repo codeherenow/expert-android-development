@@ -2,7 +2,7 @@ package com.codeherenow.butterknife.model;
 
 /**
  * This model class is part of the adapter view injection example.
- * @see com.codeherenow.butterknife.adapter.NewsArticleAdapter
+ * @see com.codeherenow.butterknife.NewsActivity
  *
  * @author Ramanan Vijayakumar <www.codeherenow.com>
  */

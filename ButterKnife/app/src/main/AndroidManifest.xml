@@ -36,6 +36,10 @@
             android:label="@string/title_activity_traffic_lights"
             android:theme="@style/AmberTheme" >
         </activity>
+        <activity
+            android:name=".GuestListActivity"
+            android:label="@string/title_activity_guest_list" >
+        </activity>
     </application>
 
 </manifest>
