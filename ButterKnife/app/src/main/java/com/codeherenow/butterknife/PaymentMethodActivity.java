@@ -1,14 +1,14 @@
 package com.codeherenow.butterknife;
 
-import android.app.ListActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class GuestListActivity extends ListActivity {
+public class PaymentMethodActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_guest_list);
+        setContentView(R.layout.activity_payment_method);
     }
 
 }

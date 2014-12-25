@@ -49,6 +49,10 @@
 
     <!-- TrafficLightsActivity -->
     <string name="title_activity_traffic_lights">Traffic Lights</string>
-    <string name="title_activity_guest_list">Guest List</string>
+
+    <!-- CreditCardActivity -->
+    <string name="title_activity_payment_method">Payment Method</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="credit_card_hint">3566 0020 2036 0505</string>
 
 </resources>

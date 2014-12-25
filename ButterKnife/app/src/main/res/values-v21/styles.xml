@@ -18,4 +18,10 @@
         <item name="android:colorPrimaryDark">@color/primary_amber_dark</item>
         <item name="android:textColorPrimary">@android:color/white</item>
     </style>
+    <style name="GreenTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/primary_green</item>
+        <item name="android:colorPrimaryDark">@color/primary_green_dark</item>
+        <item name="android:colorAccent">@color/accent_orange</item>
+    </style>
+
 </resources>

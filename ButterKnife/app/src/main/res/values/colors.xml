@@ -25,4 +25,10 @@
     <color name="amber_on">#ffa000</color>
     <color name="green_on">#64dd17</color>
     <color name="light_off">#bdbdbd</color>
+
+    <!-- PaymentMethodActivity -->
+    <color name="primary_green">#4CAF50</color>
+    <color name="primary_green_dark">#388E3C</color>
+    <color name="accent_orange">#FF5722</color>
+
 </resources>

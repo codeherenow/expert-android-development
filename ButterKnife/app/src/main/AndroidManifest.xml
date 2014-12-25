@@ -37,8 +37,9 @@
             android:theme="@style/AmberTheme" >
         </activity>
         <activity
-            android:name=".GuestListActivity"
-            android:label="@string/title_activity_guest_list" >
+            android:name=".PaymentMethodActivity"
+            android:label="@string/title_activity_payment_method"
+            android:theme="@style/GreenTheme" >
         </activity>
     </application>
 
