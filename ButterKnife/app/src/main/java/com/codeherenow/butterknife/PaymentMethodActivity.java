@@ -27,33 +27,47 @@ public class PaymentMethodActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment_method);
+
         new CreditCardFormatter(findViewById(android.R.id.content));
     }
 
+    /**
+     * This is by no means a complete solution for formatting Credit Card numbers.
+     * Here are some of the caveats,
+     *      1. The characters should be limited to 19 (16 for the CC and 3 for the
+     *         spaces.)
+     *      2. Input characters should be restricted to digits and spaces. This can be
+     *         done inside the
+     *         {@link CreditCardFormatter(android.view.View)#afterCreditCardModified(android.text.Editable)}
+     *         method, or you can use an {@link android.text.InputFilter}.
+     *      3. Spaces should be restricted to the specific indices, now you can enter a
+     *         space character where ever you want it.
+     *      4. Modifying the text by changing the cursor position will break the code.
+     */
     static class CreditCardFormatter {
-        List<Integer> SPACES = Collections.unmodifiableList(
+        static final List<Integer> SPACES = Collections.unmodifiableList(
             Arrays.asList(4, 9, 14)
         );
         int mLengthBeforeModification;
 
-        public CreditCardFormatter(View contentView) {
-            ButterKnife.inject(this, contentView);
+        CreditCardFormatter(View view) {
+            ButterKnife.inject(this, view);
         }
 
         @OnTextChanged(value = R.id.creditCardEditText,
                 callback = OnTextChanged.Callback.BEFORE_TEXT_CHANGED)
-        void beforeTextChanged(CharSequence oldText) {
+        void beforeCreditCardModified(CharSequence oldText) {
             mLengthBeforeModification = oldText.length();
         }
 
         @OnTextChanged(value = R.id.creditCardEditText,
-                callback = OnTextChanged.Callback.TEXT_CHANGED)
-        void afterTextChanged(Editable editable) {
+                callback = OnTextChanged.Callback.AFTER_TEXT_CHANGED)
+        void afterCreditCardModified(Editable editable) {
             int length = editable.length();
-            boolean deleting = length < mLengthBeforeModification;
+            boolean deleting = mLengthBeforeModification > length;
 
             if (SPACES.contains(length) && !deleting) {
-                editable.append(" ");
+                editable.append(' ');
             }
         }
     }
