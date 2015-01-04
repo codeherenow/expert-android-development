@@ -1,21 +1,24 @@
-##### 1. Hello World with @InjectView
+##### 1. Introduction & Setup - Spreading Butter on your App
+ * [build.gradle](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/build.gradle)
+
+##### 2. Hello World with @InjectView
  * [RegisterActivity.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/RegisterActivity.java)
 
-##### 2. Fragments and View Injection
+##### 3. Fragments and View Injection
  * [RegisterFragment.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/RegisterFragment.java)
 
-##### 3. Do adapters need injections too?
+##### 4. Do adapters need injections too?
  * [NewsArticleAdapter.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/adapter/NewsArticleAdapter.java)
 
-##### 4. Spin my head with bulk injections, Setters and Actions
+##### 5. Spin my head with bulk injections, Setters and Actions
  * [BillingShippingActivity.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/BillingShippingActivity.java)
 
-##### 5. Click Listener Injection using @OnClick
+##### 6. Click Listener Injection using @OnClick
  * [TrafficLightsActivity.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/TrafficLightsActivity.java)
 
-##### 6. What if my listener has multiple callbacks?
+##### 7. What if my listener has multiple callbacks?
  * [CreditCardActivity.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/CreditCardActivity.java)
 
-##### 7. Packing your cutlery for BIG time - The RELEASE build
+##### 8. Packing your cutlery for BIG time - The RELEASE build
  * [build.gradle](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/build.gradle)
  * [proguard-rules.pro](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/proguard-rules.pro)
