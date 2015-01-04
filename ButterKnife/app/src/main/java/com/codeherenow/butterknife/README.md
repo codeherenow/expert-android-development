@@ -14,9 +14,8 @@
  * [TrafficLightsActivity.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/TrafficLightsActivity.java)
 
 ##### 6. What if my listener has multiple callbacks?
- * [PaymentMethodActivity.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/PaymentMethodActivity.java)
+ * [CreditCardActivity.java](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/src/main/java/com/codeherenow/butterknife/CreditCardActivity.java)
 
 ##### 7. Packing your cutlery for BIG time - The RELEASE build
  * [build.gradle](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/build.gradle)
  * [proguard-rules.pro](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/proguard-rules.pro)
- 

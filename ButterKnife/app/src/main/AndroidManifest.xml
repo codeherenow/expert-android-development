@@ -37,7 +37,7 @@
             android:theme="@style/AmberTheme" >
         </activity>
         <activity
-            android:name=".PaymentMethodActivity"
+            android:name=".CreditCardActivity"
             android:label="@string/title_activity_payment_method"
             android:theme="@style/GreenTheme" >
         </activity>

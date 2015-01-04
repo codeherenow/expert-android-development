@@ -21,12 +21,12 @@ import butterknife.OnTextChanged;
  *
  * @author Ragunath Jawahar <www.codeherenow.com>
  */
-public class PaymentMethodActivity extends Activity {
+public class CreditCardActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment_method);
+        setContentView(R.layout.activity_credit_card);
 
         new CreditCardFormatter(findViewById(android.R.id.content));
     }

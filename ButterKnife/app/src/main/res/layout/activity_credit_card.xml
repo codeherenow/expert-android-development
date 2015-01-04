@@ -7,7 +7,7 @@
               android:paddingTop="@dimen/activity_vertical_margin"
               android:paddingBottom="@dimen/activity_vertical_margin"
               android:orientation="vertical"
-              tools:context="com.codeherenow.butterknife.PaymentMethodActivity">
+              tools:context="com.codeherenow.butterknife.CreditCardActivity">
 
     <TextView
         android:layout_width="wrap_content"
