@@ -1,3 +1,6 @@
+Section 3: Bread, Android and Butter Knife - Did I say Knife?
+--------------------------------------------------
+
 ##### 1. Introduction & Setup - Spreading Butter on your App
  * [build.gradle](https://github.com/codeherenow/expert-android-development/blob/master/ButterKnife/app/build.gradle)
 
